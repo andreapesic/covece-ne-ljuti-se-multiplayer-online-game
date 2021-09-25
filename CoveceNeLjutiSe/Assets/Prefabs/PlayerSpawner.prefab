@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4898604515067269842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4898604515067269840}
+  - component: {fileID: 4898604515067269843}
+  m_Layer: 0
+  m_Name: PlayerSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4898604515067269840
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898604515067269842}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.259759, y: -5.8788943, z: -11.371377}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4898604515067269843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4898604515067269842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 150d758f391de304aa4245a680f290f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blue: {fileID: 7849821413416823000, guid: 34846dce39edb29428494790d8742d10, type: 3}
+  red: {fileID: 4915806383914917595, guid: ba635d81be4e0ff41b71ec8e0654a70e, type: 3}
+  yellow: {fileID: 6976190377355137649, guid: ce3f2304249956c4ba3a2e1d16636302, type: 3}
+  green: {fileID: 1451953571406682109, guid: 907d65df77820da42a7a86bad376f8ab, type: 3}
+  blueSpawner: {fileID: 11400000, guid: 8d19d0cdcdd2983479d6efe484930a40, type: 2}
+  redSpawner: {fileID: 11400000, guid: af3c27f9af565d84380500712b32eda1, type: 2}
+  yellowSpawner: {fileID: 11400000, guid: 8fa14f077cd23824fb2696dd4e359068, type: 2}
+  greenSpawner: {fileID: 11400000, guid: 4c007506d4c52b4469130bf33955a8e0, type: 2}
+  PathBlue: {fileID: 0}
+  PathYellow: {fileID: 0}
+  PathGreen: {fileID: 0}
+  PathRed: {fileID: 0}

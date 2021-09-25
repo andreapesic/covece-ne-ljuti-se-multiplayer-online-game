@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 150d758f391de304aa4245a680f290f5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - blue: {instanceID: 0}
+  - red: {instanceID: 0}
+  - yellow: {instanceID: 0}
+  - green: {instanceID: 0}
+  - blueSpawner: {fileID: 11400000, guid: 8d19d0cdcdd2983479d6efe484930a40, type: 2}
+  - redSpawner: {instanceID: 0}
+  - yellowSpawner: {instanceID: 0}
+  - greenSpawner: {instanceID: 0}
+  - PathBlue: {instanceID: 0}
+  - PathYellow: {instanceID: 0}
+  - PathGreen: {instanceID: 0}
+  - PathRed: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
